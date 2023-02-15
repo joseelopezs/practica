@@ -11,7 +11,7 @@ class Media:
         suma=0
         for i in self.arrayNotas:
             suma= suma+ i 
-            return suma/len(self.arrayNotas)
+        return suma/len(self.arrayNotas)
             
 
 
